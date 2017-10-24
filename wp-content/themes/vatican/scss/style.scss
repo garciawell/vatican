@@ -1,0 +1,119 @@
+/*
+Theme Name: Inundaweb
+Theme URI: http://www.inundaweb.com.br
+Author URI: http://www.inundaweb.com.br
+Version: 0.1
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+
+/*---------------------- ESTRUTURA ---------------------*/
+
+@charset "utf-8";
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: nonenone;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style:none; 
+}
+
+
+a:focus, a:hover {
+    color: inherit; 
+}
+
+
+
+ html input[type=button], input[type=reset], input[type=submit] {
+	background:#000;
+	color:#fff;
+	padding:10px;
+	border-radius:10px;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #e0bb0e;
+    text-decoration: none;
+}
+
+*dl, dt, dd, ul, ol{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+textarea,
+input[type="text"], 
+input[type="tel"],
+input[type="email"]{
+	border: 1px solid #dadada;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+
+textarea{
+	max-height: 150px;
+	width: 100%;
+}
+ 
+
+
+
+
+a:hover,
+a:focus{
+	text-decoration: none;
+}
+
+
+
+figure{
+	margin: 0;
+}
+
+
+
+.gallery-item{
+	padding: 0 15px;
+}
+
+
+
+input[readonly]{
+	background: #e7e7e7 !important;
+	color: #8b8b8b!important;
+}
+
+
+
+body{
+	overflow-x: hidden;
+
+
+}
